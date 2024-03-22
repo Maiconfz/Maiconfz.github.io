@@ -6,7 +6,7 @@ import './style.css';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = appHtml;
 
-window.addEventListener('DOMContentLoaded', event => {
+window.addEventListener('DOMContentLoaded', () => {
   // Collapse responsive navbar when toggler is visible
   let navbarToggler: any = document.body.querySelector('.navbar-toggler');
   const responsiveNavItems = [].slice.call(
